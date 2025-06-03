@@ -1,0 +1,73 @@
+.parent {
+    color: blue;    
+}
+    
+span {
+    color: green; /* This will not conflict for the p tag, but will override for the span */
+    
+}
+.container {
+    border: 2px solid red;
+    
+}
+.parent p {
+    border: 2px solid blue;
+    color: purple;
+}
+.highlight {
+    color: orange;
+}
+.content-box {
+    background-color: lightblue;
+}
+    
+#main-content {
+    background-color: lightgreen;
+}
+h1 {
+    font-size: 36px;
+    
+}
+.action-btn {
+
+    background-color: blue;
+    
+}
+    
+#my-button {
+    background-color: red;   
+}
+    
+.action-btn { 
+    background-color: rgb(96, 124, 96) !important; 
+}
+li {
+    color: black;
+}
+    
+.nav-list li {
+    
+    color: blue;
+}
+    
+.nav-list .active {
+    
+    color: red;
+}
+.parent-center {
+    text-align: center;
+}
+    
+span {  
+    text-align: left; /* This rule has no effect on text-align inheritance for span */
+}
+.box {
+    width: 100px;
+    
+    height: 50px;
+    
+    background-color: lightblue;
+}
+.box {  
+    background-color: lightcoral; /* This rule comes later in the source */
+}

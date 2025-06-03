@@ -1,0 +1,101 @@
+@use './variable';
+
+@mixin heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+
+@mixin other-heading {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: variable.$danger-text-color;
+} 
+
+@mixin a{
+    text-decoration: none;
+    color:variable.$secondary-text-color;
+}
+
+*{
+    margin: 0;
+}
+
+header {
+    background-color:rgb(36, 36, 36);
+    text-align: center;
+    border-bottom: variable.$border;
+
+    h1 {
+        @include heading;
+        font-size: 34px;
+        padding: 20px 0px 12px 0px;
+    }
+    p {
+        font-size: 13px;
+        color: variable.$white_text;
+        padding-bottom: 25px;
+    }
+}
+
+body {
+    background-color: variable.$another-background-color;
+    a {
+        @include a;
+    }
+}
+
+nav {
+    ul {
+        display: variable.$flex;
+        justify-content: center;
+        gap:100px;
+        padding:10px;
+        margin-top:10px;
+        margin-bottom:20px;
+        box-shadow: variable.$box-shadow;
+    }
+    li {
+        list-style: variable.$list-style;
+    }
+    a {
+        font-weight: bold;
+    }
+}
+.main-content-area{
+    display:variable.$flex;
+
+    .article.full-width{
+        background-color: variable.$background-color;
+        margin-right:variable.$margin;
+        box-shadow: variable.$box-shadow;
+        grid-column: 1 / span 2;
+    }
+    .sidebar{
+        background-color: variable.$background-color;
+        box-shadow: variable.$box-shadow;
+        height: 100%;
+        margin-left: variable.$margin;
+        padding: 20px;
+
+        ul {
+            list-style: variable.$list-style;
+            padding:0px;
+        }
+
+        li {
+            padding:10px 0px 10px 0px;
+        }
+    }
+    .articles-container {
+        display:grid;
+    }
+    .article {
+        background-color: variable.$background-color;
+        margin-right: variable.$margin;
+        margin-top: variable.$margin;
+        box-shadow: variable.$box-shadow;
+    }
+}
+h2,h3 {
+    @include other-heading;
+}
+

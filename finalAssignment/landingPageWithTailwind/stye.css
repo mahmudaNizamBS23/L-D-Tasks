@@ -1,0 +1,25 @@
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes rocket-float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    25% { transform: translateY(-10px) rotate(2deg); }
+    75% { transform: translateY(10px) rotate(-2deg); }
+}
+
+.float-animation {
+    animation: float 3s ease-in-out infinite;
+}
+
+.rocket-animation {
+    animation: rocket-float 4s ease-in-out infinite;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #FF6B47, #FF8A4C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
