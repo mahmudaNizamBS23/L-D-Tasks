@@ -1,0 +1,8 @@
+#sidebar ol li {
+    list-style:square;
+}
+#sidebar ol li a {
+    color: rgb(124, 43, 43);
+    text-decoration: none;
+    font-weight: bold;
+}

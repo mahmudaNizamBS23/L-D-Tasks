@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+}
+
+main {
+  background-color: rgba(255, 253, 240, 0.353);
+}
+
+.container {
+  display: flex;
+  gap: 5px;
+  padding: 20px 10px 10px 10px;
+}
+.container .logo img {
+  width: 100px;
+  height: auto;
+}
+.container input {
+  width: 600px;
+  height: 30px;
+  padding: 3px;
+}
+
+#top-bar {
+  background-color: #0f1319;
+  align-items: center;
+}
+
+.secondary-nav {
+  background-color: rgb(43, 46, 56);
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+#icon {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+#search {
+  background-color: rgb(216, 153, 90);
+  border: none;
+  padding: 4px;
+}
+
+.user-nav select {
+  background-color: #0f1319;
+  color: white;
+  border: none;
+}
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-banner .nav-buttons {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 20px;
+  pointer-events: none; /* allows click-through unless overridden */
+}
+.hero-banner .nav-buttons button {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  pointer-events: all; /* re-enables click for the button itself */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.promo-grid .promo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.promo-grid .promo-card img {
+  justify-self: center;
+  width: 250px;
+  height: 300px;
+}/*# sourceMappingURL=style.css.map */

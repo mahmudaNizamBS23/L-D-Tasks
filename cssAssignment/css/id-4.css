@@ -1,0 +1,12 @@
+#top-navigation {
+    background-color: rgb(12, 12, 57);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+#top-navigation a {
+    color: aliceblue;
+}

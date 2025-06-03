@@ -1,0 +1,5 @@
+input[type="password"] {
+    background-color: rgb(151, 224, 236);
+    border: 1px solid black;
+    width: 200px;
+}

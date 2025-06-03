@@ -1,0 +1,6 @@
+.static-box {
+    position: static;
+    top: 2px; 
+    left: 10px; 
+    z-index: -1;
+}

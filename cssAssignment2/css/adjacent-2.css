@@ -1,0 +1,5 @@
+li + li {
+    margin-top: 5px;
+    border-bottom: 1px dashed black;
+    text-shadow: 5px 5px rgba(19, 17, 17, 0.1); 
+}

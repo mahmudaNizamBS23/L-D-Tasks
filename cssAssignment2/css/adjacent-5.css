@@ -1,0 +1,5 @@
+figcaption + img {
+    border : 1px solid black;
+    max-width: fit-content;
+    box-shadow: 3px 3px slategray;
+}

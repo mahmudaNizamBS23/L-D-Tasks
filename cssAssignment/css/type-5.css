@@ -1,0 +1,8 @@
+img {
+    max-width: fit-content;
+    width: 300px;
+    padding: 10px;
+}
+p {
+    padding: 10px;
+}

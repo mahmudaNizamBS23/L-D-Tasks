@@ -1,0 +1,76 @@
+.block-element {
+    display: block;
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid red;
+    width: 200px;
+}
+.inline-element {
+    display: inline;
+    background-color: lightblue;
+    padding: 10px; /* Padding affects inline elements, but not width/height */
+    margin: 5px;  /* Margin only affects horizontal space */
+    border: 1px solid blue;
+    width: 150px; /* This will have no effect on inline elements */
+    height: 50px;
+}
+.inline-block-element {
+    display: inline-block;
+    background-color: lightgreen;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid green;
+    width: 180px;
+    height: 100px;
+    text-align: center;
+}
+.hidden-element {
+    display: none;
+    background-color: lightgray;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.visible-element {
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid orange;
+}
+.custom-list-item {
+    display: list-item;
+    margin-left: 30px; /* Adjust for marker visibility */
+    background-color: lavender;
+    padding: 5px;
+    border-bottom: 1px dashed purple;
+    list-style-type: square; /* Customizing the marker */
+}
+.container {
+    border: 2px solid green;
+    padding: 10px;
+    margin: 20px;
+}
+.table-container {
+    display: table;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 2px solid darkgreen;
+}
+.table-row {
+    display: table-row;
+}
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid lightgray;
+    text-align: center;
+    vertical-align: middle;
+    background-color: lightcyan;
+}
+.header-cell {
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+}

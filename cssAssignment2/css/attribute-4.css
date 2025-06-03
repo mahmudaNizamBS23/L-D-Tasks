@@ -1,0 +1,9 @@
+a[href^='https://'] {
+  font-weight: bold;
+  color:darkcyan;
+}
+a[href^="https://"]::after {
+    content: " 🔒";  /* Use 🔒 or 🔗 or any symbol to simulate an icon */
+    margin-left: 4px;
+    font-size: 0.9em;
+  }

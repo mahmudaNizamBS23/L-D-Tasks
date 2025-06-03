@@ -1,0 +1,5 @@
+h1 + p {
+    font-size: large;
+    background-color: lightcyan;
+    border-left: 1px solid blue;
+}
