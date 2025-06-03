@@ -1,0 +1,82 @@
+.block-element {
+  background-color: #367eae;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid red;
+  width: 200px; /* Explicit width to show it takes full line if no width is set */
+}
+
+.inline-element {
+  background-color: #367eae;
+  padding: 10px; /* Padding affects inline elements, but not width/height */
+  margin: 5px; /* Margin only affects horizontal space */
+  border: 1px solid blue;
+  width: 150px; /* This will have no effect on inline elements */
+  height: 50px; /* This will have no effect on inline elements */
+}
+
+.inline-block-element {
+  background-color: #367eae;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid green;
+  width: 180px;
+  height: 100px;
+  text-align: center;
+}
+
+.hidden-element {
+  background-color: #367eae;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.visible-element {
+  background-color: #367eae;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid orange;
+}
+
+.custom-list-item {
+  display: list-item;
+  margin-left: 30px; /* Adjust for marker visibility */
+  background-color: lavender;
+  padding: 5px;
+  border-bottom: 1px dashed purple;
+  list-style-type: square; /* Customizing the marker */
+}
+
+.container {
+  border: 2px solid green;
+  padding: 10px;
+  margin: 20px;
+}
+
+.table-container {
+  display: table;
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  border: 2px solid darkgreen;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid lightgray;
+  text-align: center;
+  vertical-align: middle;
+  background-color: lightcyan;
+}
+
+.header-cell {
+  background-color: #367eae;
+  color: white;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

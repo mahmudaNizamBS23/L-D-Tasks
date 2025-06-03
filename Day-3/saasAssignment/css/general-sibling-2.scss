@@ -1,0 +1,6 @@
+@use './variable';
+
+h4,p{
+    @extend %message-shared;
+    color: variable.$text-color;
+}

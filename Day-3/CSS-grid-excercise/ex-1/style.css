@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    background-color: rgb(170, 186, 202);
+    width: fit-content;
+    padding: 10px;
+}
+.grid-container > div {
+    padding : 20px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+}

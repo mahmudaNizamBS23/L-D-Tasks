@@ -1,0 +1,9 @@
+$font-weight: bold;
+$primary-color: #3498db;
+$border: 1px dashed black;
+
+#article-content > p{
+    font-weight: $font-weight;
+    border-bottom: $border;
+    background-color: $primary-color;
+}
